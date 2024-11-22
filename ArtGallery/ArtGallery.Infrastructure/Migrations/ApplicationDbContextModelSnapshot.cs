@@ -128,17 +128,49 @@ namespace ArtGallery.Infrastructure.Migrations
 
             modelBuilder.Entity("ArtGallery.Infrastructure.Data.Entities.Cart", b =>
                 {
-                    b.Property<string>("Id")
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("UserId")
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<int>("OrderId")
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Cart");
+                });
+
+            modelBuilder.Entity("ArtGallery.Infrastructure.Data.Entities.CartItem", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<int>("CartId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("OrderDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Quantity")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("OrderId");
+                    b.HasIndex("CartId");
 
-                    b.ToTable("Carts");
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("CartItems");
                 });
 
             modelBuilder.Entity("ArtGallery.Infrastructure.Data.Entities.Category", b =>
@@ -158,60 +190,6 @@ namespace ArtGallery.Infrastructure.Migrations
                     b.ToTable("Categories");
                 });
 
-            modelBuilder.Entity("ArtGallery.Infrastructure.Data.Entities.Order", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<DateTime>("OrderDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("UserId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("Orders");
-                });
-
-            modelBuilder.Entity("ArtGallery.Infrastructure.Data.Entities.OrderProduct", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<decimal>("Discount")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<int>("OrderId")
-                        .HasColumnType("int");
-
-                    b.Property<decimal>("Price")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Quantity")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("OrderId");
-
-                    b.HasIndex("ProductId");
-
-                    b.ToTable("OrderProducts");
-                });
-
             modelBuilder.Entity("ArtGallery.Infrastructure.Data.Entities.Product", b =>
                 {
                     b.Property<int>("Id")
@@ -219,9 +197,6 @@ namespace ArtGallery.Infrastructure.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<int>("ArtistId")
-                        .HasColumnType("int");
 
                     b.Property<int>("CategoryId")
                         .HasColumnType("int");
@@ -249,11 +224,24 @@ namespace ArtGallery.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ArtistId");
-
                     b.HasIndex("CategoryId");
 
                     b.ToTable("Products");
+                });
+
+            modelBuilder.Entity("ArtGallery.Infrastructure.Data.Entities.ProductArtist", b =>
+                {
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ArtistId")
+                        .HasColumnType("int");
+
+                    b.HasKey("ProductId", "ArtistId");
+
+                    b.HasIndex("ArtistId");
+
+                    b.ToTable("ProductArtists");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -395,62 +383,60 @@ namespace ArtGallery.Infrastructure.Migrations
 
             modelBuilder.Entity("ArtGallery.Infrastructure.Data.Entities.Cart", b =>
                 {
-                    b.HasOne("ArtGallery.Infrastructure.Data.Entities.Order", "Order")
-                        .WithMany("Cart")
-                        .HasForeignKey("OrderId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Order");
-                });
-
-            modelBuilder.Entity("ArtGallery.Infrastructure.Data.Entities.Order", b =>
-                {
                     b.HasOne("ArtGallery.Infrastructure.Data.Entities.ApplicationUser", "User")
                         .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("UserId");
 
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("ArtGallery.Infrastructure.Data.Entities.OrderProduct", b =>
+            modelBuilder.Entity("ArtGallery.Infrastructure.Data.Entities.CartItem", b =>
                 {
-                    b.HasOne("ArtGallery.Infrastructure.Data.Entities.Order", "Order")
-                        .WithMany("OrderProducts")
-                        .HasForeignKey("OrderId")
+                    b.HasOne("ArtGallery.Infrastructure.Data.Entities.Cart", "Cart")
+                        .WithMany("CartItems")
+                        .HasForeignKey("CartId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("ArtGallery.Infrastructure.Data.Entities.Product", "Product")
-                        .WithMany("OrderProducts")
+                        .WithMany()
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Order");
+                    b.Navigation("Cart");
 
                     b.Navigation("Product");
                 });
 
             modelBuilder.Entity("ArtGallery.Infrastructure.Data.Entities.Product", b =>
                 {
-                    b.HasOne("ArtGallery.Infrastructure.Data.Entities.Artist", "Artist")
-                        .WithMany("Products")
-                        .HasForeignKey("ArtistId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("ArtGallery.Infrastructure.Data.Entities.Category", "Category")
                         .WithMany("Products")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("ArtGallery.Infrastructure.Data.Entities.ProductArtist", b =>
+                {
+                    b.HasOne("ArtGallery.Infrastructure.Data.Entities.Artist", "Artist")
+                        .WithMany("ProductArtists")
+                        .HasForeignKey("ArtistId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ArtGallery.Infrastructure.Data.Entities.Product", "Product")
+                        .WithMany("ProductArtists")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("Artist");
 
-                    b.Navigation("Category");
+                    b.Navigation("Product");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -506,7 +492,12 @@ namespace ArtGallery.Infrastructure.Migrations
 
             modelBuilder.Entity("ArtGallery.Infrastructure.Data.Entities.Artist", b =>
                 {
-                    b.Navigation("Products");
+                    b.Navigation("ProductArtists");
+                });
+
+            modelBuilder.Entity("ArtGallery.Infrastructure.Data.Entities.Cart", b =>
+                {
+                    b.Navigation("CartItems");
                 });
 
             modelBuilder.Entity("ArtGallery.Infrastructure.Data.Entities.Category", b =>
@@ -514,16 +505,9 @@ namespace ArtGallery.Infrastructure.Migrations
                     b.Navigation("Products");
                 });
 
-            modelBuilder.Entity("ArtGallery.Infrastructure.Data.Entities.Order", b =>
-                {
-                    b.Navigation("Cart");
-
-                    b.Navigation("OrderProducts");
-                });
-
             modelBuilder.Entity("ArtGallery.Infrastructure.Data.Entities.Product", b =>
                 {
-                    b.Navigation("OrderProducts");
+                    b.Navigation("ProductArtists");
                 });
 #pragma warning restore 612, 618
         }

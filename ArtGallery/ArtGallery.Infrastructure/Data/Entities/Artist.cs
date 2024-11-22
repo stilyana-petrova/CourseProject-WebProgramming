@@ -20,7 +20,7 @@ namespace ArtGallery.Infrastructure.Data.Entities
        
         public string Biography { get; set; }
 
-        public virtual IEnumerable<Product> Products { get; set; } = new List<Product>();
+        public virtual IEnumerable<ProductArtist> ProductArtists { get; set; } = new List<ProductArtist>();
 
     }
 }

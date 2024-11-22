@@ -21,13 +21,9 @@ namespace ArtGallery.Infrastructure.Data.Entities
         public virtual Category Category { get; set; }
         [Required]
         public string Picture { get; set; }
+        
         [Required]
-        [ForeignKey(nameof(Artist))]
-
-        public int ArtistId { get; set; }
-        public virtual Artist Artist { get; set; }
-        [Required]
-        [Range(0, 50)]
+        [Range(0, 100)]
         public int Quantity { get; set; }
         [Required]
         [Range(0.01, double.MaxValue, ErrorMessage ="The price must be positive number.")]
@@ -35,6 +31,8 @@ namespace ArtGallery.Infrastructure.Data.Entities
         [Required]
         public decimal Discount { get; set; }
 
-        public virtual IEnumerable<OrderProduct> OrderProducts { get; set; } = new List<OrderProduct>();
+        public virtual IEnumerable<ProductArtist> ProductArtists { get; set; } = new List<ProductArtist>();
+
+
     }
 }

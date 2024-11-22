@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\Уеб програмиране\\Web programming 2\\ArtGallery\\ArtGallery.Infrastructure\\ArtGallery.Infrastructure.csproj": {}
+    "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\Уеб програмиране\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\ArtGallery.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\Уеб програмиране\\Web programming 2\\ArtGallery\\ArtGallery.Infrastructure\\ArtGallery.Infrastructure.csproj": {
+    "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\Уеб програмиране\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\ArtGallery.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\Уеб програмиране\\Web programming 2\\ArtGallery\\ArtGallery.Infrastructure\\ArtGallery.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\Уеб програмиране\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\ArtGallery.Infrastructure.csproj",
         "projectName": "ArtGallery.Infrastructure",
-        "projectPath": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\Уеб програмиране\\Web programming 2\\ArtGallery\\ArtGallery.Infrastructure\\ArtGallery.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\Уеб програмиране\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\ArtGallery.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Stilly\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\Уеб програмиране\\Web programming 2\\ArtGallery\\ArtGallery.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\Уеб програмиране\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -54,6 +54,10 @@
               "version": "[6.0.15, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
               "target": "Package",
               "version": "[6.0.15, )"
             },

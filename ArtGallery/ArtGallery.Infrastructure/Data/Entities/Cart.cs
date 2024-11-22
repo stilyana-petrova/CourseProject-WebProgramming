@@ -10,22 +10,13 @@ namespace ArtGallery.Infrastructure.Data.Entities
 {
     public class Cart
     {
-        public string Id { get; set; }
-       
-       // public string CartId { get; set; }
+        public int Id { get; set; }
+        [ForeignKey(nameof(User))]
+        public string UserId { get; set; }
+        public virtual ApplicationUser User { get; set; }
 
-       // public int Quantity { get; set; }
+        public virtual IEnumerable<CartItem> CartItems { get; set; } = new List<CartItem>();
 
-      //  public System.DateTime DateCreated { get; set; }
-        
-        //[ForeignKey(nameof(Product))]
-        //public int ProductId { get; set; }
-        //public virtual Product Product { get; set; }
-
-        [ForeignKey(nameof(Order))]
-
-        public int OrderId { get; set; }
-        public virtual Order Order { get; set; }
 
     }
 }
