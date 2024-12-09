@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>aspnet-ArtGallery-d199f438-4dd9-42be-8e18-dc08836ad8ab</UserSecretsId>
   </PropertyGroup>
@@ -11,8 +11,14 @@
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.36" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.36" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.36" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.35" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.36" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.36" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.18" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ArtGallery.Infrastructure\ArtGallery.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
