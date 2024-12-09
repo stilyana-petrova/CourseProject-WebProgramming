@@ -30,12 +30,15 @@ namespace ArtGallery
                 options.Password.RequireNonAlphanumeric = false;
                 options.Password.RequiredLength = 5;
             })
+                .AddRoles<IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             builder.Services.AddControllersWithViews();
 
             builder.Services.AddTransient<IArtistService, ArtistService>();
             builder.Services.AddTransient<ICategoryService, CategoryService>();
             builder.Services.AddTransient<IProductService, ProductService>();
+            builder.Services.AddTransient<IOrderService, OrderService>();
+            builder.Services.AddTransient<IShoppingCartService, ShoppingCartService>();
 
             var app = builder.Build();
             app.PrepareDatabase();

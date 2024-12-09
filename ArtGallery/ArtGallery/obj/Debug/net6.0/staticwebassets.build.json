@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JdgB4+PDeaFym31vuejLYTtxuLOJfsA8CA+2JUQTwG8=",
+  "Hash": "eI+Xa0ami+vLhvELtqYRCUYqtM5FZzJF4RIKq/Nnn/4=",
   "Source": "ArtGallery",
   "BasePath": "_content/ArtGallery",
   "Mode": "Default",
@@ -1333,8 +1333,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "2onpfu8ibh",
-      "Integrity": "7hSWdp1ekY2dzJ33owIEi5l7v7NxGaPgq9wd6qFpD48=",
+      "Fingerprint": "42oq7h3m0o",
+      "Integrity": "TPcBzns6SIY+ne7dR84DXuKTKtxIysgi4TWBTaag8QU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -2745,7 +2745,7 @@
       ]
     },
     {
-      "Route": "css/site.2onpfu8ibh.css",
+      "Route": "css/site.42oq7h3m0o.css",
       "AssetFile": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\Уеб програмиране\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2755,7 +2755,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1956"
+          "Value": "2010"
         },
         {
           "Name": "Content-Type",
@@ -2763,11 +2763,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"7hSWdp1ekY2dzJ33owIEi5l7v7NxGaPgq9wd6qFpD48=\""
+          "Value": "\"TPcBzns6SIY+ne7dR84DXuKTKtxIysgi4TWBTaag8QU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 09 Dec 2024 16:01:42 GMT"
+          "Value": "Mon, 09 Dec 2024 18:34:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2777,7 +2777,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "2onpfu8ibh"
+          "Value": "42oq7h3m0o"
         },
         {
           "Name": "label",
@@ -2785,7 +2785,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-7hSWdp1ekY2dzJ33owIEi5l7v7NxGaPgq9wd6qFpD48="
+          "Value": "sha256-TPcBzns6SIY+ne7dR84DXuKTKtxIysgi4TWBTaag8QU="
         }
       ]
     },
@@ -2800,7 +2800,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1956"
+          "Value": "2010"
         },
         {
           "Name": "Content-Type",
@@ -2808,11 +2808,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"7hSWdp1ekY2dzJ33owIEi5l7v7NxGaPgq9wd6qFpD48=\""
+          "Value": "\"TPcBzns6SIY+ne7dR84DXuKTKtxIysgi4TWBTaag8QU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 09 Dec 2024 16:01:42 GMT"
+          "Value": "Mon, 09 Dec 2024 18:34:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2822,7 +2822,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-7hSWdp1ekY2dzJ33owIEi5l7v7NxGaPgq9wd6qFpD48="
+          "Value": "sha256-TPcBzns6SIY+ne7dR84DXuKTKtxIysgi4TWBTaag8QU="
         }
       ]
     },

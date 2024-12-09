@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ArtGallery.Controllers
 {
+    [Authorize(Roles ="Admin")]
     public class ProductController : Controller
     {
         private readonly IArtistService _artistService;

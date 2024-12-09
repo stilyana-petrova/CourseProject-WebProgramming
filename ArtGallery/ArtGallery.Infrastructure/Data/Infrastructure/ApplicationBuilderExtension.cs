@@ -52,7 +52,7 @@ namespace ArtGallery.Infrastructure.Data.Infrastructure
                 user.FirstName = "admin";
                 user.LastName = "admin";
                 user.UserName = "admin";
-                user.Email = "admin";
+                user.Email = "admin@admin.com";
                 user.Address = "admin address";
                 user.PhoneNumber = "0888898898";
 
