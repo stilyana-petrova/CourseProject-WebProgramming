@@ -15,6 +15,8 @@ namespace ArtGallery.Infrastructure.Data.Entities
         [Required]
         [MinLength(33)]
         public string Name { get; set; }
+        [Required]
+        public string Description { get; set; }
 
         [Required]
         [ForeignKey(nameof(Artist))]
