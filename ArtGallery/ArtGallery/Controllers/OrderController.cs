@@ -1,8 +1,11 @@
 ﻿using ArtGallery.Core.Abstraction;
 using ArtGallery.Infrastructure.Data.Entities;
+using ArtGallery.Models.Checkout;
 using ArtGallery.Models.Order;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Globalization;
 using System.Security.Claims;
 
@@ -12,17 +15,20 @@ namespace ArtGallery.Controllers
     {
         private readonly IProductService _productService;
         private readonly IOrderService _orderService;
+        private readonly ICheckoutService _checkoutService;
 
-        public OrderController(IProductService productService, IOrderService orderService)
+
+        public OrderController(IProductService productService, IOrderService orderService, ICheckoutService checkoutService)
         {
             _productService = productService;
             _orderService = orderService;
+            _checkoutService = checkoutService;
         }
 
 
 
         // GET: OrderController
-        [Authorize(Roles = "Administrator")]
+        [Authorize(Roles = "Admin")]
         public ActionResult Index()
         {
             // string userId = this.User.FindFirstValue(ClaimTypes.NameIdentifier);
@@ -112,6 +118,9 @@ namespace ArtGallery.Controllers
             }
             return this.RedirectToAction("Index", "Product");
         }
+
+
+       
 
         // GET: OrderController/Denied
         public ActionResult Denied()

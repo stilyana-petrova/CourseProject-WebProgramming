@@ -7,11 +7,11 @@
 <h1>My Orders</h1>
 
 
-<table class="table">
+<table class="table border-dark alert-warning my-5">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.OrderDate)
+                Order Date
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Product)
@@ -29,7 +29,7 @@
                 @Html.DisplayNameFor(model => model.Discount)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.TotalPrice)
+               Total Price
             </th>
             <th></th>
         </tr>
@@ -52,13 +52,13 @@
                     @Html.DisplayFor(modelItem => item.Quantity)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Price)
+                    @Html.DisplayFor(modelItem => item.Price) lv.
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.Discount)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.TotalPrice)
+                    @Html.DisplayFor(modelItem => item.TotalPrice) lv.
                 </td>
             </tr>
         }

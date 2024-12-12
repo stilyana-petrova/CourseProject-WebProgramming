@@ -26,7 +26,27 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="AboutUs">About Us</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Product" asp-action="Index">Products</a>
+                        </li>
+                        <li class="nav-item active dropdown dmenu">
+                            <div class="dropdown show">
+                                <a class="nav-link dropdown-toggle" href="#"
+                                   id="dropdownMenuLink navbardrop" data-bs-toggle="dropdown">
+                                    Categories
+                                </a>
+                                <div class="dropdown-menu sm-menu" aria-labelledby="dropdownMenuLinkCategories">
+                                    <a class="dropdown-item" asp-area="" asp-controller="Product" asp-action="Drawings">Drawings</a>
+
+                                    <a class="dropdown-item" asp-area="" asp-controller="Product" asp-action="Paintings">Paintings</a>
+
+                                    <a class="dropdown-item" asp-area="" asp-controller="Product" asp-action="Decor">Decorations</a>
+                                    <a class="dropdown-item" asp-area="" asp-controller="Product" asp-action="Calendars">Calendars</a>
+                                    <a class="dropdown-item" asp-area="" asp-controller="Product" asp-action="AlbumCards">Albums and Cards</a>
+                                </div>
+                            </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Artist" asp-action="Index">Artists</a>

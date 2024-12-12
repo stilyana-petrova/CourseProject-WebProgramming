@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ArtGallery.Controllers
 {
-    [Authorize(Roles ="Admin")]
+    [Authorize(Roles = "Admin")]
     public class ProductController : Controller
     {
         private readonly IArtistService _artistService;
@@ -185,6 +185,37 @@ namespace ArtGallery.Controllers
             var deleted = _productService.RemoveById(id);
             if (deleted) return RedirectToAction(nameof(Index));
             else return View();
+        }
+
+        //for the categories
+        [AllowAnonymous]
+        public ActionResult Paintings()
+        {
+            return View();
+        }
+
+        [AllowAnonymous]
+        public ActionResult Drawings()
+        {
+            return View();
+        }
+
+        [AllowAnonymous]
+        public ActionResult Decor()
+        {
+            return View();
+        }
+
+        [AllowAnonymous]
+        public ActionResult Calendars()
+        {
+            return View();
+        }
+
+        [AllowAnonymous]
+        public ActionResult AlbumCards()
+        {
+            return View();
         }
     }
 }

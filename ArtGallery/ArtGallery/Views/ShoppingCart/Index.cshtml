@@ -55,11 +55,14 @@ else
         </table>
         <div class="text-right">
             <h4>Total: <span id="total">@initialTotal</span></h4>
-            <a href="@Url.Action("PlaceOrder", "ShoppingCart")" class="btn btn-success">Order</a>
+            <a href="@Url.Action("Index", "Checkout")" class="btn btn-success">Order</a>
             <a asp-action="Index" asp-controller="Product" class="btn btn-warning">Continue Shopping</a>
         </div>
     </div>
 }
+
+
+
 @section Scripts {
     <script>
         // Function to update the quantity of products

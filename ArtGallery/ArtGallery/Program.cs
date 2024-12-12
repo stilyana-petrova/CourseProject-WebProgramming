@@ -39,6 +39,8 @@ namespace ArtGallery
             builder.Services.AddTransient<IProductService, ProductService>();
             builder.Services.AddTransient<IOrderService, OrderService>();
             builder.Services.AddTransient<IShoppingCartService, ShoppingCartService>();
+            builder.Services.AddScoped<ICheckoutService, CheckoutService>();
+
 
             var app = builder.Build();
             app.PrepareDatabase();
