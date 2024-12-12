@@ -60,24 +60,29 @@
                         @if ((this.User.Identity.IsAuthenticated) && (this.User.IsInRole("Admin")))
                         {
 
-                            <li class="dropdown">
-                                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                    Dashboard
-                                </button>
+                            <li class="nav-item active dropdown dmenu">
+                                <div class="dropdown show">
+                                    <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuButton1 dropdownMenuLink navbardrop"
+                                       data-bs-toggle="dropdown">
+                                        Dashboard
+                                    </a>
 
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                    <li><a class="dropdown-item" href="/Client/Index">Clients</a></li>
-                                    <li><a class="dropdown-item" href="/Order/Index">Orders</a></li>
-                                    <li><a class="dropdown-item" href="/Statistic/Index">Statistic</a></li>
-                                </ul>
+                                    <div class="dropdown-menu sm-menu" aria-labelledby="dropdownMenuButton1">
+                                        <a class="dropdown-item" href="/Order/Index">Orders</a>
+                                        <a class="dropdown-item" href="/Artist/Create">Add new artist</a>
+                                        <a class="dropdown-item" href="/Product/Create">Add new product</a>
+                                        <a class="dropdown-item" href="/Client/Index">Clients</a>
+                                        <a class="dropdown-item" href="/Statistic/Index">Statistic</a>
+                                    </div>
+                                </div>
                             </li>
                         }
                     </ul>
-                    @if(User.Identity.IsAuthenticated){
+                    @if (User.Identity.IsAuthenticated)
+                    {
                         <a asp-controller="ShoppingCart" asp-action="Index">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-cart2 mx-5" viewBox="0 0 16 16">
-                            <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0" />
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-cart2 mx-5" viewBox="0 0 16 16">
+                                <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0" />
                             </svg>
                         </a>
                     }

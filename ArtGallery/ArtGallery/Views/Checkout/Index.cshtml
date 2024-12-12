@@ -4,7 +4,7 @@
     ViewData["Title"] = "Index";
 }
 
-<form method="post">
+<form asp-action="Index" method="post">
     <div class="form-group">
         <label for="FullName">Full Name</label>
         <input type="text" class="form-control" id="FullName" name="FullName" value="@Model.FullName" required />
@@ -48,5 +48,5 @@
         </select>
     </div>
 
-    <a href="@Url.Action("PlaceOrder", "ShoppingCart")" class="btn btn-success">Place Order</a>
+    <a href="@Url.Action("PlaceOrder", "ShoppingCart")" class="btn btn-dark my-4">Place Order</a>
 </form>

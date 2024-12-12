@@ -12,7 +12,7 @@ namespace ArtGallery.Core.Abstraction
     {
         ApplicationUser GetUserDetails(string userId);
         bool ProcessCheckout(string userId, string fullName, string address, string email, string secondAddress, string country, string city, string zipCode, string phoneNumber, string paymentMethod);
-       Task<bool> SaveCheckout(string userId, string fullname, string address, string email, string address2, string country, string city,
+       bool SaveCheckout(string userId, string fullname, string address, string email, string address2, string country, string city,
             string zip, string phone, string pay);
     }
 }

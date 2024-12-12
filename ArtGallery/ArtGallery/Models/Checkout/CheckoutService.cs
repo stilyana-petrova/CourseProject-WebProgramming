@@ -31,7 +31,7 @@ namespace ArtGallery.Core.Services
            
             return true;
         }
-        public async Task<bool> SaveCheckout(string userId, string fullname, string address, string email, string address2, string country, string city,
+        public bool SaveCheckout(string userId, string fullname, string address, string email, string address2, string country, string city,
             string zip, string phone, string pay)
         {
             Checkout checkout = new Checkout
@@ -50,7 +50,7 @@ namespace ArtGallery.Core.Services
             };
 
             _context.Checkouts.Add(checkout);
-            return await _context.SaveChangesAsync() > 0;
+            return _context.SaveChanges() > 0;
         }
 
 
