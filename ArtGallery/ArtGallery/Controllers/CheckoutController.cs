@@ -42,41 +42,32 @@ namespace ArtGallery.Controllers
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Index(CheckoutFormVM model)
+        public IActionResult Index([FromForm] CheckoutFormVM model)
         {
-            if (!ModelState.IsValid)
-            {
-                return View(model);
-            }
-
             string currentUserId = this.User.FindFirstValue(ClaimTypes.NameIdentifier);
 
-            if (string.IsNullOrEmpty(currentUserId))
+            if (ModelState.IsValid)
             {
-                ModelState.AddModelError("", "User is not authenticated.");
-                return View(model);
-            }
+                var isSaved = _checkoutService.SaveCheckout(
+               currentUserId,
+               model.FullName,
+               model.Address,
+               model.Email,
+               model.Address2,
+               model.Country,
+               model.City,
+               model.ZipCode,
+               model.PhoneNumber,
+               model.PaymentMethod
+           );
 
-            bool isSaved = _checkoutService.SaveCheckout(
-                currentUserId,
-                model.FullName,
-                model.Address,
-                model.Email,
-                model.Address2,
-                model.Country,
-                model.City,
-                model.ZipCode,
-                model.PhoneNumber,
-                model.PaymentMethod
-            );
-
-            if (isSaved)
-            {
-                return RedirectToAction("OrderSuccess", "ShoppingCart");
-            }
-
-            ModelState.AddModelError("", "Failed to process the checkout.");
-            return View(model);
+                if (isSaved)
+                {
+                    return RedirectToAction("OrderSuccess", "ShoppingCart");
+                }
+               
+            } 
+            return View();
         }
 
 

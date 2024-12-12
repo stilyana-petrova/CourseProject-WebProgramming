@@ -21,6 +21,11 @@
     </div>
 
     <div class="form-group">
+        <label for="Address2">Other Address</label>
+        <input type="text" class="form-control" id="Address2" name="Address2" value="@Model.Address2" />
+    </div>
+
+    <div class="form-group">
         <label for="City">City</label>
         <input type="text" class="form-control" id="City" name="City" required />
     </div>
@@ -48,5 +53,11 @@
         </select>
     </div>
 
-    <a href="@Url.Action("PlaceOrder", "ShoppingCart")" class="btn btn-dark my-4">Place Order</a>
+    <form asp-action="Index" asp-controller="Checkout" method="post" style="margin-top:5px;">
+        <input type="hidden" name="checkoutId" value="Id" />
+
+        <button type="submit" class="btn btn-dark">Place Order</button>
+    </form>
+@*     <a href="@Url.Action("PlaceOrder", "ShoppingCart")" class="btn btn-dark my-4">Place Order</a>
+ *@
 </form>

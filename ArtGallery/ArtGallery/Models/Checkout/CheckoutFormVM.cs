@@ -5,7 +5,7 @@ namespace ArtGallery.Models.Checkout
 {
     public class CheckoutFormVM
     {
-     
+        public int Id { get; set; }
         public string UserId { get; set; }
 
         [Required]

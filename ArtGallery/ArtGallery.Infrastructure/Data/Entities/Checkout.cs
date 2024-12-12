@@ -26,7 +26,6 @@ namespace ArtGallery.Infrastructure.Data.Entities
         [Required]
         public string Email { get; set; }
 
-        [Required]
         public string Address2 { get; set; }
 
         [Required]
