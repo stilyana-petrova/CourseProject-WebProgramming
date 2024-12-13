@@ -68,20 +68,33 @@
                                     </a>
 
                                     <div class="dropdown-menu sm-menu" aria-labelledby="dropdownMenuButton1">
-                                        <a class="dropdown-item" href="/Order/Index">Orders</a>
-                                        <a class="dropdown-item" href="/Artist/Create">Add new artist</a>
-                                        <a class="dropdown-item" href="/Product/Create">Add new product</a>
-                                        <a class="dropdown-item" href="/Client/Index">Clients</a>
-                                        <a class="dropdown-item" href="/Statistic/Index">Statistic</a>
+                                        <a class="dropdown-item" asp-controller="Order" asp-action="Index">Orders</a>
+                                        <a class="dropdown-item" asp-controller="Artist" asp-action="Create">Add new artist</a>
+                                        <a class="dropdown-item" asp-controller="Product" asp-action="Create">Add new product</a>
+                                       @*  <a class="dropdown-item" href="/Client/Index">Clients</a>
+                                        <a class="dropdown-item" href="/Statistic/Index">Statistic</a> *@
                                     </div>
                                 </div>
                             </li>
                         }
                     </ul>
+                    <form asp-controller="Product" asp-action="Index" method="post">
+
+                        <div class="container h-100">
+                            <div class="d-flex justify-content-center h-100">
+                                <div class="searchbar">
+                                    <input class="search_input" type="text" name="SearchStringProductName" placeholder="Search...">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
                     @if (User.Identity.IsAuthenticated)
                     {
                         <a asp-controller="ShoppingCart" asp-action="Index">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-cart2 mx-5" viewBox="0 0 16 16">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-cart2 mx-4" viewBox="0 0 16 16">
                                 <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0" />
                             </svg>
                         </a>

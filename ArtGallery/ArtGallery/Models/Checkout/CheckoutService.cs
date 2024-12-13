@@ -2,6 +2,7 @@
 using ArtGallery.Data;
 using ArtGallery.Infrastructure.Data.Entities;
 using ArtGallery.Models.Checkout;
+using ArtGallery.Models.ShoppingCart;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -52,7 +53,30 @@ namespace ArtGallery.Core.Services
             _context.Checkouts.Add(checkout);
             return _context.SaveChanges() > 0;
         }
+        public CheckoutFormVM PrepareCheckoutForm(string userId)
+        {
+            var user = GetUserDetails(userId);
 
+            var cartItems = _context.ShoppingCartItems
+                .Where(c => c.UserId == userId)
+                .Select(c => new CartItemVM
+                {
+                    ProductId = c.ProductId,
+                    ProductName = c.Product.Name,
+                    Picture = c.Product.Picture,
+                    Quantity = c.Quantity,
+                    Price = c.Product.Price
+                })
+                .ToList();
+
+            return new CheckoutFormVM
+            {
+                FullName = user != null ? $"{user.FirstName} {user.LastName}" : string.Empty,
+                Address = user?.Address,
+                Email = user?.Email,
+                Products = cartItems
+            };
+        }
 
     }
 }

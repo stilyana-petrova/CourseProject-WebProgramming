@@ -1,4 +1,5 @@
 ﻿using ArtGallery.Infrastructure.Data.Entities;
+using ArtGallery.Models.ShoppingCart;
 using System.ComponentModel.DataAnnotations;
 
 namespace ArtGallery.Models.Checkout
@@ -34,9 +35,8 @@ namespace ArtGallery.Models.Checkout
         public string PaymentMethod { get; set; }
 
         public DateTime CheckoutDate { get; set; }
+        public List<CartItemVM> Products { get; set; }
 
 
-        //public List<ShoppingCartItem> CartItems { get; set; } = new List<ShoppingCartItem>();
-        // public decimal TotalAmount { get; set; }
     }
 }

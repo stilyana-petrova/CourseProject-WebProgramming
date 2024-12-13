@@ -40,8 +40,8 @@ else
                             <input type="number" name="quantity" value="@item.Quantity" min="1" max="@item.QuantityInStock" onchange="updateQuantity(this)" />
                         </td>
                         <td class="price">@item.Price lv.</td>
-                        <td class="discount">@item.Discount</td>
-                        <td class="subtotal">@item.Total lv.</td>
+                        <td class="discount">@item.Discount %</td>
+                        <td class="subtotal">@item.Total.ToString("F2") lv.</td>
                         <td>
                             <form asp-action="RemoveFromCart" asp-controller="ShoppingCart" method="post">
                                 <input type="hidden" name="cartItemId" value="@item.Id" />
@@ -57,7 +57,7 @@ else
             </tbody>
         </table>
         <div class="text-right">
-            <h4 class="my-3">Total: <span id="total">@initialTotal</span> lv.</h4>
+            <h4 class="my-3">Total: <span id="total">@initialTotal.ToString("F2")</span> lv.</h4>
             <a href="@Url.Action("Index", "Checkout")" class="btn btn-dark">Order</a>
             <a asp-action="Index" asp-controller="Product" class="btn btn-warning">Continue Shopping</a>
         </div>

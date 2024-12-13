@@ -3,48 +3,128 @@
   "WorkspaceRootPath": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\Migrations\\20241212204030_try2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ArtGallery.Infrastructure\\Migrations\\20241212204030_try2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\models\\checkout\\checkoutformvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\models\\checkout\\checkoutformvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D50B5509-4EF9-44C7-A189-D3C1FBAD5E09}|ArtGallery.Infrastructure\\ArtGallery.Infrastructure.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery.infrastructure\\data\\entities\\checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D50B5509-4EF9-44C7-A189-D3C1FBAD5E09}|ArtGallery.Infrastructure\\ArtGallery.Infrastructure.csproj|solutionrelative:artgallery.infrastructure\\data\\entities\\checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\models\\artist\\artistvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\models\\artist\\artistvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\views\\shoppingcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\views\\shoppingcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\views\\shoppingcart\\ordersuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\views\\shoppingcart\\ordersuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\models\\shoppingcart\\cartitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\models\\shoppingcart\\cartitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\models\\checkout\\checkoutformvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\models\\checkout\\checkoutformvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\models\\checkout\\checkoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\models\\checkout\\checkoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\models\\shoppingcart\\shoppingcartindexvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\models\\shoppingcart\\shoppingcartindexvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50B5509-4EF9-44C7-A189-D3C1FBAD5E09}|ArtGallery.Infrastructure\\ArtGallery.Infrastructure.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D50B5509-4EF9-44C7-A189-D3C1FBAD5E09}|ArtGallery.Infrastructure\\ArtGallery.Infrastructure.csproj|solutionrelative:artgallery.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\models\\checkout\\icheckoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\models\\checkout\\icheckoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50B5509-4EF9-44C7-A189-D3C1FBAD5E09}|ArtGallery.Infrastructure\\ArtGallery.Infrastructure.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery.infrastructure\\migrations\\20241213013211_f3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D50B5509-4EF9-44C7-A189-D3C1FBAD5E09}|ArtGallery.Infrastructure\\ArtGallery.Infrastructure.csproj|solutionrelative:artgallery.infrastructure\\migrations\\20241213013211_f3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50B5509-4EF9-44C7-A189-D3C1FBAD5E09}|ArtGallery.Infrastructure\\ArtGallery.Infrastructure.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery.infrastructure\\data\\entities\\checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D50B5509-4EF9-44C7-A189-D3C1FBAD5E09}|ArtGallery.Infrastructure\\ArtGallery.Infrastructure.csproj|solutionrelative:artgallery.infrastructure\\data\\entities\\checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50B5509-4EF9-44C7-A189-D3C1FBAD5E09}|ArtGallery.Infrastructure\\ArtGallery.Infrastructure.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery.infrastructure\\migrations\\20241213010053_f2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D50B5509-4EF9-44C7-A189-D3C1FBAD5E09}|ArtGallery.Infrastructure\\ArtGallery.Infrastructure.csproj|solutionrelative:artgallery.infrastructure\\migrations\\20241213010053_f2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\views\\artist\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\views\\artist\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\views\\product\\albumcards.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\views\\product\\albumcards.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\views\\product\\calendars.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\views\\product\\calendars.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\views\\product\\drawings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\views\\product\\drawings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\views\\product\\decor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\views\\product\\decor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\views\\product\\paintings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\views\\product\\paintings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50B5509-4EF9-44C7-A189-D3C1FBAD5E09}|ArtGallery.Infrastructure\\ArtGallery.Infrastructure.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery.infrastructure\\data\\infrastructure\\applicationbuilderextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D50B5509-4EF9-44C7-A189-D3C1FBAD5E09}|ArtGallery.Infrastructure\\ArtGallery.Infrastructure.csproj|solutionrelative:artgallery.infrastructure\\data\\infrastructure\\applicationbuilderextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A92B78B8-FF2E-46FC-B759-996A710023A8}|ArtGallery.Core\\ArtGallery.Core.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery.core\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A92B78B8-FF2E-46FC-B759-996A710023A8}|ArtGallery.Core\\ArtGallery.Core.csproj|solutionrelative:artgallery.core\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\models\\artist\\artistvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\models\\artist\\artistvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -59,24 +139,8 @@
       "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\models\\order\\orderindexvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\views\\shoppingcart\\ordersuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\views\\shoppingcart\\ordersuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\models\\checkout\\icheckoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\models\\checkout\\icheckoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A92B78B8-FF2E-46FC-B759-996A710023A8}|ArtGallery.Core\\ArtGallery.Core.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery.core\\services\\shoppingcartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -85,14 +149,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A92B78B8-FF2E-46FC-B759-996A710023A8}|ArtGallery.Core\\ArtGallery.Core.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery.core\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A92B78B8-FF2E-46FC-B759-996A710023A8}|ArtGallery.Core\\ArtGallery.Core.csproj|solutionrelative:artgallery.core\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D50B5509-4EF9-44C7-A189-D3C1FBAD5E09}|ArtGallery.Infrastructure\\ArtGallery.Infrastructure.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D50B5509-4EF9-44C7-A189-D3C1FBAD5E09}|ArtGallery.Infrastructure\\ArtGallery.Infrastructure.csproj|solutionrelative:artgallery.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\views\\checkout\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -131,14 +187,6 @@
       "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\models\\product\\productcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D50B5509-4EF9-44C7-A189-D3C1FBAD5E09}|ArtGallery.Infrastructure\\ArtGallery.Infrastructure.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery.infrastructure\\data\\infrastructure\\applicationbuilderextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D50B5509-4EF9-44C7-A189-D3C1FBAD5E09}|ArtGallery.Infrastructure\\ArtGallery.Infrastructure.csproj|solutionrelative:artgallery.infrastructure\\data\\infrastructure\\applicationbuilderextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -151,16 +199,8 @@
       "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A92B78B8-FF2E-46FC-B759-996A710023A8}|ArtGallery.Core\\ArtGallery.Core.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery.core\\abstraction\\ishoppingcartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A92B78B8-FF2E-46FC-B759-996A710023A8}|ArtGallery.Core\\ArtGallery.Core.csproj|solutionrelative:artgallery.core\\abstraction\\ishoppingcartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\models\\shoppingcart\\shoppingcartindexvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\models\\shoppingcart\\shoppingcartindexvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -193,10 +233,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\views\\artist\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\views\\artist\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\views\\artist\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\views\\artist\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -259,10 +295,6 @@
       "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -287,8 +319,12 @@
       "RelativeMoniker": "D:0:0:{643A58BB-4521-4C68-92E0-DA79BA22F3CD}|ArtGallery\\ArtGallery.csproj|solutionrelative:artgallery\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D50B5509-4EF9-44C7-A189-D3C1FBAD5E09}|ArtGallery.Infrastructure\\ArtGallery.Infrastructure.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery.infrastructure\\migrations\\20241212182604_checkoutfourthtry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D50B5509-4EF9-44C7-A189-D3C1FBAD5E09}|ArtGallery.Infrastructure\\ArtGallery.Infrastructure.csproj|solutionrelative:artgallery.infrastructure\\migrations\\20241212182604_checkoutfourthtry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D50B5509-4EF9-44C7-A189-D3C1FBAD5E09}|ArtGallery.Infrastructure\\ArtGallery.Infrastructure.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery.infrastructure\\migrations\\20241213005243_f1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D50B5509-4EF9-44C7-A189-D3C1FBAD5E09}|ArtGallery.Infrastructure\\ArtGallery.Infrastructure.csproj|solutionrelative:artgallery.infrastructure\\migrations\\20241213005243_f1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50B5509-4EF9-44C7-A189-D3C1FBAD5E09}|ArtGallery.Infrastructure\\ArtGallery.Infrastructure.csproj|c:\\users\\stilly\\documents\\stelly\\uni\\\u0443\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\web programming 2\\courseproject-webprogramming\\artgallery\\artgallery.infrastructure\\migrations\\20241212224729_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D50B5509-4EF9-44C7-A189-D3C1FBAD5E09}|ArtGallery.Infrastructure\\ArtGallery.Infrastructure.csproj|solutionrelative:artgallery.infrastructure\\migrations\\20241212224729_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -297,195 +333,90 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "DockedWidth": 233,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CheckoutService.cs",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Models\\Checkout\\CheckoutService.cs",
-              "RelativeDocumentMoniker": "ArtGallery\\Models\\Checkout\\CheckoutService.cs",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Models\\Checkout\\CheckoutService.cs",
-              "RelativeToolTip": "ArtGallery\\Models\\Checkout\\CheckoutService.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAwwDQAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T13:14:32.66Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CheckoutController.cs",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Controllers\\CheckoutController.cs",
-              "RelativeDocumentMoniker": "ArtGallery\\Controllers\\CheckoutController.cs",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Controllers\\CheckoutController.cs",
-              "RelativeToolTip": "ArtGallery\\Controllers\\CheckoutController.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAYwEUAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T12:33:04.441Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "ArtGallery\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "ArtGallery\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAYwF8AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T15:04:31.812Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Checkout.cs",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\Data\\Entities\\Checkout.cs",
-              "RelativeDocumentMoniker": "ArtGallery.Infrastructure\\Data\\Entities\\Checkout.cs",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\Data\\Entities\\Checkout.cs",
-              "RelativeToolTip": "ArtGallery.Infrastructure\\Data\\Entities\\Checkout.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwBwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T14:58:16.969Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20241212204030_try2.cs",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\Migrations\\20241212204030_try2.cs",
-              "RelativeDocumentMoniker": "ArtGallery.Infrastructure\\Migrations\\20241212204030_try2.cs",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\Migrations\\20241212204030_try2.cs",
-              "RelativeToolTip": "ArtGallery.Infrastructure\\Migrations\\20241212204030_try2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T20:40:30.329Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "CheckoutFormVM.cs",
               "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Models\\Checkout\\CheckoutFormVM.cs",
               "RelativeDocumentMoniker": "ArtGallery\\Models\\Checkout\\CheckoutFormVM.cs",
               "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Models\\Checkout\\CheckoutFormVM.cs",
               "RelativeToolTip": "ArtGallery\\Models\\Checkout\\CheckoutFormVM.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAzwAcAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA1wBwAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T13:23:11.778Z",
+              "WhenOpened": "2024-12-13T12:04:34.811Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CheckoutController.cs",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Controllers\\CheckoutController.cs",
+              "RelativeDocumentMoniker": "ArtGallery\\Controllers\\CheckoutController.cs",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Controllers\\CheckoutController.cs",
+              "RelativeToolTip": "ArtGallery\\Controllers\\CheckoutController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAASwCEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T12:33:04.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Checkout\\Index.cshtml",
               "RelativeDocumentMoniker": "ArtGallery\\Views\\Checkout\\Index.cshtml",
               "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Checkout\\Index.cshtml",
               "RelativeToolTip": "ArtGallery\\Views\\Checkout\\Index.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAiwCMAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAIcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-12T12:44:23.353Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ArtistVM.cs",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Models\\Artist\\ArtistVM.cs",
-              "RelativeDocumentMoniker": "ArtGallery\\Models\\Artist\\ArtistVM.cs",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Models\\Artist\\ArtistVM.cs",
-              "RelativeToolTip": "ArtGallery\\Models\\Artist\\ArtistVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "ShoppingCartController.cs",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Controllers\\ShoppingCartController.cs",
+              "RelativeDocumentMoniker": "ArtGallery\\Controllers\\ShoppingCartController.cs",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Controllers\\ShoppingCartController.cs",
+              "RelativeToolTip": "ArtGallery\\Controllers\\ShoppingCartController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAcwCIAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T15:26:12.227Z",
+              "WhenOpened": "2024-12-09T19:37:28.606Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\ShoppingCart\\Index.cshtml",
               "RelativeDocumentMoniker": "ArtGallery\\Views\\ShoppingCart\\Index.cshtml",
               "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\ShoppingCart\\Index.cshtml",
               "RelativeToolTip": "ArtGallery\\Views\\ShoppingCart\\Index.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAABQAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADwAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-12T18:38:02.233Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Product\\Index.cshtml",
-              "RelativeDocumentMoniker": "ArtGallery\\Views\\Product\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Product\\Index.cshtml",
-              "RelativeToolTip": "ArtGallery\\Views\\Product\\Index.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAD8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-09T15:59:06.527Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "ArtGallery\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "ArtGallery\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACIAAAAAAAAAAAAUwEUAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-09T18:27:37.726Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Order\\Index.cshtml",
-              "RelativeDocumentMoniker": "ArtGallery\\Views\\Order\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Order\\Index.cshtml",
-              "RelativeToolTip": "ArtGallery\\Views\\Order\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAC0AAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-09T19:20:08.027Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MyOrders.cshtml",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Order\\MyOrders.cshtml",
-              "RelativeDocumentMoniker": "ArtGallery\\Views\\Order\\MyOrders.cshtml",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Order\\MyOrders.cshtml",
-              "RelativeToolTip": "ArtGallery\\Views\\Order\\MyOrders.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACoAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-09T19:21:23.986Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "OrderIndexVM.cs",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Models\\Order\\OrderIndexVM.cs",
-              "RelativeDocumentMoniker": "ArtGallery\\Models\\Order\\OrderIndexVM.cs",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Models\\Order\\OrderIndexVM.cs",
-              "RelativeToolTip": "ArtGallery\\Models\\Order\\OrderIndexVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "CartItemVM.cs",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Models\\ShoppingCart\\CartItemVM.cs",
+              "RelativeDocumentMoniker": "ArtGallery\\Models\\ShoppingCart\\CartItemVM.cs",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Models\\ShoppingCart\\CartItemVM.cs",
+              "RelativeToolTip": "ArtGallery\\Models\\ShoppingCart\\CartItemVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T19:10:24.836Z"
+              "WhenOpened": "2024-12-13T01:05:05.279Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 2,
               "Title": "OrderSuccess.cshtml",
               "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\ShoppingCart\\OrderSuccess.cshtml",
               "RelativeDocumentMoniker": "ArtGallery\\Views\\ShoppingCart\\OrderSuccess.cshtml",
@@ -493,71 +424,51 @@
               "RelativeToolTip": "ArtGallery\\Views\\ShoppingCart\\OrderSuccess.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-09T19:54:49.324Z"
+              "WhenOpened": "2024-12-09T19:54:49.324Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ShoppingCartController.cs",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Controllers\\ShoppingCartController.cs",
-              "RelativeDocumentMoniker": "ArtGallery\\Controllers\\ShoppingCartController.cs",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Controllers\\ShoppingCartController.cs",
-              "RelativeToolTip": "ArtGallery\\Controllers\\ShoppingCartController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAUwGMAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T19:37:28.606Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Product\\Create.cshtml",
-              "RelativeDocumentMoniker": "ArtGallery\\Views\\Product\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Product\\Create.cshtml",
-              "RelativeToolTip": "ArtGallery\\Views\\Product\\Create.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-09T15:55:44.7Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ICheckoutService.cs",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Models\\Checkout\\ICheckoutService.cs",
-              "RelativeDocumentMoniker": "ArtGallery\\Models\\Checkout\\ICheckoutService.cs",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Models\\Checkout\\ICheckoutService.cs",
-              "RelativeToolTip": "ArtGallery\\Models\\Checkout\\ICheckoutService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T13:13:56.839Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 71,
-              "Title": "20241212182604_checkoutFourthTry.cs",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\Migrations\\20241212182604_checkoutFourthTry.cs",
-              "RelativeDocumentMoniker": "ArtGallery.Infrastructure\\Migrations\\20241212182604_checkoutFourthTry.cs",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\Migrations\\20241212182604_checkoutFourthTry.cs",
-              "RelativeToolTip": "ArtGallery.Infrastructure\\Migrations\\20241212182604_checkoutFourthTry.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T18:26:04.913Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 7,
               "Title": "OrderController.cs",
               "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "ArtGallery\\Controllers\\OrderController.cs",
               "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Controllers\\OrderController.cs",
               "RelativeToolTip": "ArtGallery\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAqwIoAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAqwIoAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T19:13:20.333Z"
+              "WhenOpened": "2024-12-09T19:13:20.333Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 8,
+              "Title": "CheckoutService.cs",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Models\\Checkout\\CheckoutService.cs",
+              "RelativeDocumentMoniker": "ArtGallery\\Models\\Checkout\\CheckoutService.cs",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Models\\Checkout\\CheckoutService.cs",
+              "RelativeToolTip": "ArtGallery\\Models\\Checkout\\CheckoutService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAASwBsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T13:14:32.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ShoppingCartIndexVM.cs",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Models\\ShoppingCart\\ShoppingCartIndexVM.cs",
+              "RelativeDocumentMoniker": "ArtGallery\\Models\\ShoppingCart\\ShoppingCartIndexVM.cs",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Models\\ShoppingCart\\ShoppingCartIndexVM.cs",
+              "RelativeToolTip": "ArtGallery\\Models\\ShoppingCart\\ShoppingCartIndexVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T19:36:38.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "ArtGallery.Infrastructure\\Data\\ApplicationDbContext.cs",
@@ -565,143 +476,169 @@
               "RelativeToolTip": "ArtGallery.Infrastructure\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T14:21:42.468Z"
+              "WhenOpened": "2024-12-09T14:21:42.468Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Program.cs",
               "RelativeDocumentMoniker": "ArtGallery\\Program.cs",
               "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Program.cs",
               "RelativeToolTip": "ArtGallery\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBMAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwBMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T14:03:59.242Z"
+              "WhenOpened": "2024-12-09T14:03:59.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ArtGallery\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ArtGallery\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAABUBAAAAAAAAAAAcwCYBAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T15:04:31.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ICheckoutService.cs",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Models\\Checkout\\ICheckoutService.cs",
+              "RelativeDocumentMoniker": "ArtGallery\\Models\\Checkout\\ICheckoutService.cs",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Models\\Checkout\\ICheckoutService.cs",
+              "RelativeToolTip": "ArtGallery\\Models\\Checkout\\ICheckoutService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T13:13:56.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20241213013211_f3.cs",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\Migrations\\20241213013211_f3.cs",
+              "RelativeDocumentMoniker": "ArtGallery.Infrastructure\\Migrations\\20241213013211_f3.cs",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\Migrations\\20241213013211_f3.cs",
+              "RelativeToolTip": "ArtGallery.Infrastructure\\Migrations\\20241213013211_f3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T01:32:12.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20241213010053_f2.cs",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\Migrations\\20241213010053_f2.cs",
+              "RelativeDocumentMoniker": "ArtGallery.Infrastructure\\Migrations\\20241213010053_f2.cs",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\Migrations\\20241213010053_f2.cs",
+              "RelativeToolTip": "ArtGallery.Infrastructure\\Migrations\\20241213010053_f2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T01:00:54.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Checkout.cs",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\Data\\Entities\\Checkout.cs",
+              "RelativeDocumentMoniker": "ArtGallery.Infrastructure\\Data\\Entities\\Checkout.cs",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\Data\\Entities\\Checkout.cs",
+              "RelativeToolTip": "ArtGallery.Infrastructure\\Data\\Entities\\Checkout.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T14:58:16.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "20241213005243_f1.cs",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\Migrations\\20241213005243_f1.cs",
+              "RelativeDocumentMoniker": "ArtGallery.Infrastructure\\Migrations\\20241213005243_f1.cs",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\Migrations\\20241213005243_f1.cs",
+              "RelativeToolTip": "ArtGallery.Infrastructure\\Migrations\\20241213005243_f1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T00:52:43.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ArtGallery\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ArtGallery\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAUwGAAAAB/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T18:27:37.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Artist\\Details.cshtml",
+              "RelativeDocumentMoniker": "ArtGallery\\Views\\Artist\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Artist\\Details.cshtml",
+              "RelativeToolTip": "ArtGallery\\Views\\Artist\\Details.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T15:49:07.07Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "ShoppingCartService.cs",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Core\\Services\\ShoppingCartService.cs",
-              "RelativeDocumentMoniker": "ArtGallery.Core\\Services\\ShoppingCartService.cs",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Core\\Services\\ShoppingCartService.cs",
-              "RelativeToolTip": "ArtGallery.Core\\Services\\ShoppingCartService.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAawD4AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T19:39:32.372Z"
+              "Title": "AlbumCards.cshtml",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Product\\AlbumCards.cshtml",
+              "RelativeDocumentMoniker": "ArtGallery\\Views\\Product\\AlbumCards.cshtml",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Product\\AlbumCards.cshtml",
+              "RelativeToolTip": "ArtGallery\\Views\\Product\\AlbumCards.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T00:09:47.951Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Core\\Services\\OrderService.cs",
-              "RelativeDocumentMoniker": "ArtGallery.Core\\Services\\OrderService.cs",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Core\\Services\\OrderService.cs",
-              "RelativeToolTip": "ArtGallery.Core\\Services\\OrderService.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAlwBMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T19:08:55.399Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Success.cshtml",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Checkout\\Success.cshtml",
-              "RelativeDocumentMoniker": "ArtGallery\\Views\\Checkout\\Success.cshtml",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Checkout\\Success.cshtml",
-              "RelativeToolTip": "ArtGallery\\Views\\Checkout\\Success.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAA==",
+              "Title": "Calendars.cshtml",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Product\\Calendars.cshtml",
+              "RelativeDocumentMoniker": "ArtGallery\\Views\\Product\\Calendars.cshtml",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Product\\Calendars.cshtml",
+              "RelativeToolTip": "ArtGallery\\Views\\Product\\Calendars.cshtml",
+              "ViewState": "AgIAADEAAAAAAAAAAAAYwEIAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-12T15:52:49.697Z"
+              "WhenOpened": "2024-12-13T00:08:59.242Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\Data\\Entities\\Category.cs",
-              "RelativeDocumentMoniker": "ArtGallery.Infrastructure\\Data\\Entities\\Category.cs",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\Data\\Entities\\Category.cs",
-              "RelativeToolTip": "ArtGallery.Infrastructure\\Data\\Entities\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T14:11:15.824Z"
+              "DocumentIndex": 21,
+              "Title": "Drawings.cshtml",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Product\\Drawings.cshtml",
+              "RelativeDocumentMoniker": "ArtGallery\\Views\\Product\\Drawings.cshtml",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Product\\Drawings.cshtml",
+              "RelativeToolTip": "ArtGallery\\Views\\Product\\Drawings.cshtml",
+              "ViewState": "AgIAADEAAAAAAAAAAAAYwE0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T00:05:56.041Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\Data\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "ArtGallery.Infrastructure\\Data\\Entities\\Product.cs",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\Data\\Entities\\Product.cs",
-              "RelativeToolTip": "ArtGallery.Infrastructure\\Data\\Entities\\Product.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAIA6wBYAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T14:11:48.317Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\Data\\Entities\\Order.cs",
-              "RelativeDocumentMoniker": "ArtGallery.Infrastructure\\Data\\Entities\\Order.cs",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\Data\\Entities\\Order.cs",
-              "RelativeToolTip": "ArtGallery.Infrastructure\\Data\\Entities\\Order.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA1wCIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T14:17:26.156Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Artist.cs",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\Data\\Entities\\Artist.cs",
-              "RelativeDocumentMoniker": "ArtGallery.Infrastructure\\Data\\Entities\\Artist.cs",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\Data\\Entities\\Artist.cs",
-              "RelativeToolTip": "ArtGallery.Infrastructure\\Data\\Entities\\Artist.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T14:10:54.971Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\Data\\Entities\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "ArtGallery.Infrastructure\\Data\\Entities\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\Data\\Entities\\ApplicationUser.cs",
-              "RelativeToolTip": "ArtGallery.Infrastructure\\Data\\Entities\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T14:09:05.787Z"
+              "DocumentIndex": 22,
+              "Title": "Decor.cshtml",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Product\\Decor.cshtml",
+              "RelativeDocumentMoniker": "ArtGallery\\Views\\Product\\Decor.cshtml",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Product\\Decor.cshtml",
+              "RelativeToolTip": "ArtGallery\\Views\\Product\\Decor.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T00:07:47.401Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 25,
-              "Title": "ShoppingCartItem.cs",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\Data\\Entities\\ShoppingCartItem.cs",
-              "RelativeDocumentMoniker": "ArtGallery.Infrastructure\\Data\\Entities\\ShoppingCartItem.cs",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\Data\\Entities\\ShoppingCartItem.cs",
-              "RelativeToolTip": "ArtGallery.Infrastructure\\Data\\Entities\\ShoppingCartItem.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAkwBoAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T14:19:55.766Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Artist\\Create.cshtml",
-              "RelativeDocumentMoniker": "ArtGallery\\Views\\Artist\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Artist\\Create.cshtml",
-              "RelativeToolTip": "ArtGallery\\Views\\Artist\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-09T15:45:22.851Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
               "Title": "ApplicationBuilderExtension.cs",
               "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\Data\\Infrastructure\\ApplicationBuilderExtension.cs",
               "RelativeDocumentMoniker": "ArtGallery.Infrastructure\\Data\\Infrastructure\\ApplicationBuilderExtension.cs",
@@ -713,391 +650,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "ArtGallery\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "ArtGallery\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T15:59:06.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Paintings.cshtml",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Product\\Paintings.cshtml",
+              "RelativeDocumentMoniker": "ArtGallery\\Views\\Product\\Paintings.cshtml",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Product\\Paintings.cshtml",
+              "RelativeToolTip": "ArtGallery\\Views\\Product\\Paintings.cshtml",
+              "ViewState": "AgIAADgAAAAAAAAAAAAYwFQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T23:08:12.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "ArtGallery\\wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\wwwroot\\css\\site.css",
               "RelativeToolTip": "ArtGallery\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAALQAAAAAAAAAAAAowMcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAALsAAAAAAAAAAAAAAMgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-12-09T16:01:06.616Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "ArtGallery\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "ArtGallery\\Views\\Home\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-11T10:05:08.953Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "ProductCreateVM.cs",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Models\\Product\\ProductCreateVM.cs",
-              "RelativeDocumentMoniker": "ArtGallery\\Models\\Product\\ProductCreateVM.cs",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Models\\Product\\ProductCreateVM.cs",
-              "RelativeToolTip": "ArtGallery\\Models\\Product\\ProductCreateVM.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAgwB0AAAArAAAAAAAAAA==",
+              "DocumentIndex": 29,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Core\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "ArtGallery.Core\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Core\\Services\\ProductService.cs",
+              "RelativeToolTip": "ArtGallery.Core\\Services\\ProductService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T15:29:08.955Z"
+              "WhenOpened": "2024-12-12T23:00:05.868Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Product\\Edit.cshtml",
-              "RelativeDocumentMoniker": "ArtGallery\\Views\\Product\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Product\\Edit.cshtml",
-              "RelativeToolTip": "ArtGallery\\Views\\Product\\Edit.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-09T15:58:20.743Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Product\\Details.cshtml",
-              "RelativeDocumentMoniker": "ArtGallery\\Views\\Product\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Product\\Details.cshtml",
-              "RelativeToolTip": "ArtGallery\\Views\\Product\\Details.cshtml",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAUwE8AAACOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-09T15:57:31.838Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "ArtGallery\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "ArtGallery\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAowE4AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-11T09:59:21.605Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "IShoppingCartService.cs",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Core\\Abstraction\\IShoppingCartService.cs",
-              "RelativeDocumentMoniker": "ArtGallery.Core\\Abstraction\\IShoppingCartService.cs",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Core\\Abstraction\\IShoppingCartService.cs",
-              "RelativeToolTip": "ArtGallery.Core\\Abstraction\\IShoppingCartService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T19:38:47.524Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "ShoppingCartIndexVM.cs",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Models\\ShoppingCart\\ShoppingCartIndexVM.cs",
-              "RelativeDocumentMoniker": "ArtGallery\\Models\\ShoppingCart\\ShoppingCartIndexVM.cs",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Models\\ShoppingCart\\ShoppingCartIndexVM.cs",
-              "RelativeToolTip": "ArtGallery\\Models\\ShoppingCart\\ShoppingCartIndexVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T19:36:38.093Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Order\\Create.cshtml",
-              "RelativeDocumentMoniker": "ArtGallery\\Views\\Order\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Order\\Create.cshtml",
-              "RelativeToolTip": "ArtGallery\\Views\\Order\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-09T19:18:15.778Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "OrderCreateVM.cs",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Models\\Order\\OrderCreateVM.cs",
-              "RelativeDocumentMoniker": "ArtGallery\\Models\\Order\\OrderCreateVM.cs",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Models\\Order\\OrderCreateVM.cs",
-              "RelativeToolTip": "ArtGallery\\Models\\Order\\OrderCreateVM.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAsAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T19:11:46.193Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "IOrderService.cs",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Core\\Abstraction\\IOrderService.cs",
-              "RelativeDocumentMoniker": "ArtGallery.Core\\Abstraction\\IOrderService.cs",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Core\\Abstraction\\IOrderService.cs",
-              "RelativeToolTip": "ArtGallery.Core\\Abstraction\\IOrderService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T19:08:12.032Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Artist\\Delete.cshtml",
-              "RelativeDocumentMoniker": "ArtGallery\\Views\\Artist\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Artist\\Delete.cshtml",
-              "RelativeToolTip": "ArtGallery\\Views\\Artist\\Delete.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAADMAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-09T15:48:01.219Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Product\\Delete.cshtml",
-              "RelativeDocumentMoniker": "ArtGallery\\Views\\Product\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Product\\Delete.cshtml",
-              "RelativeToolTip": "ArtGallery\\Views\\Product\\Delete.cshtml",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAEoAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-09T15:56:35.082Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "ArtistController.cs",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Controllers\\ArtistController.cs",
-              "RelativeDocumentMoniker": "ArtGallery\\Controllers\\ArtistController.cs",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Controllers\\ArtistController.cs",
-              "RelativeToolTip": "ArtGallery\\Controllers\\ArtistController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T15:32:37.955Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Artist\\Index.cshtml",
-              "RelativeDocumentMoniker": "ArtGallery\\Views\\Artist\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Artist\\Index.cshtml",
-              "RelativeToolTip": "ArtGallery\\Views\\Artist\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-09T15:50:38.345Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Artist\\Edit.cshtml",
-              "RelativeDocumentMoniker": "ArtGallery\\Views\\Artist\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Artist\\Edit.cshtml",
-              "RelativeToolTip": "ArtGallery\\Views\\Artist\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-09T15:49:46.902Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Artist\\Details.cshtml",
-              "RelativeDocumentMoniker": "ArtGallery\\Views\\Artist\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Artist\\Details.cshtml",
-              "RelativeToolTip": "ArtGallery\\Views\\Artist\\Details.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACwAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-09T15:49:07.07Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "Register.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeDocumentMoniker": "ArtGallery\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeToolTip": "ArtGallery\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAcwJYAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T14:32:32.06Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "ArtGallery\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeToolTip": "ArtGallery\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-09T14:37:09.396Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "Login.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "RelativeDocumentMoniker": "ArtGallery\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "RelativeToolTip": "ArtGallery\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAUwBkAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T14:29:01.824Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "ArtGallery\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeToolTip": "ArtGallery\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-09T14:30:47.582Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "ArtGallery.Infrastructure.csproj",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\ArtGallery.Infrastructure.csproj",
-              "RelativeDocumentMoniker": "ArtGallery.Infrastructure\\ArtGallery.Infrastructure.csproj",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\ArtGallery.Infrastructure.csproj",
-              "RelativeToolTip": "ArtGallery.Infrastructure\\ArtGallery.Infrastructure.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-09T14:07:23.749Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "ProductIndexVM.cs",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Models\\Product\\ProductIndexVM.cs",
-              "RelativeDocumentMoniker": "ArtGallery\\Models\\Product\\ProductIndexVM.cs",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Models\\Product\\ProductIndexVM.cs",
-              "RelativeToolTip": "ArtGallery\\Models\\Product\\ProductIndexVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T15:28:22.127Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "CategoryVM.cs",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Models\\Category\\CategoryVM.cs",
-              "RelativeDocumentMoniker": "ArtGallery\\Models\\Category\\CategoryVM.cs",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Models\\Category\\CategoryVM.cs",
-              "RelativeToolTip": "ArtGallery\\Models\\Category\\CategoryVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T15:26:35.865Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Core\\Abstraction\\IProductService.cs",
-              "RelativeDocumentMoniker": "ArtGallery.Core\\Abstraction\\IProductService.cs",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Core\\Abstraction\\IProductService.cs",
-              "RelativeToolTip": "ArtGallery.Core\\Abstraction\\IProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAACCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T15:19:04.179Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "ArtistService.cs",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Core\\Services\\ArtistService.cs",
-              "RelativeDocumentMoniker": "ArtGallery.Core\\Services\\ArtistService.cs",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Core\\Services\\ArtistService.cs",
-              "RelativeToolTip": "ArtGallery.Core\\Services\\ArtistService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T15:16:57.982Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "IArtistService.cs",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Core\\Abstraction\\IArtistService.cs",
-              "RelativeDocumentMoniker": "ArtGallery.Core\\Abstraction\\IArtistService.cs",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Core\\Abstraction\\IArtistService.cs",
-              "RelativeToolTip": "ArtGallery.Core\\Abstraction\\IArtistService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T15:16:18.43Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
-              "Title": "CategoryService.cs",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Core\\Services\\CategoryService.cs",
-              "RelativeDocumentMoniker": "ArtGallery.Core\\Services\\CategoryService.cs",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Core\\Services\\CategoryService.cs",
-              "RelativeToolTip": "ArtGallery.Core\\Services\\CategoryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T15:15:34.818Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "ICategoryService.cs",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Core\\Abstraction\\ICategoryService.cs",
-              "RelativeDocumentMoniker": "ArtGallery.Core\\Abstraction\\ICategoryService.cs",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Core\\Abstraction\\ICategoryService.cs",
-              "RelativeToolTip": "ArtGallery.Core\\Abstraction\\ICategoryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T15:14:58.43Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
-              "Title": "ArtGallery.Core.csproj",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Core\\ArtGallery.Core.csproj",
-              "RelativeDocumentMoniker": "ArtGallery.Core\\ArtGallery.Core.csproj",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Core\\ArtGallery.Core.csproj",
-              "RelativeToolTip": "ArtGallery.Core\\ArtGallery.Core.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-09T15:12:40.86Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 62,
-              "Title": "Logout.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
-              "RelativeDocumentMoniker": "ArtGallery\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
-              "RelativeToolTip": "ArtGallery\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T14:38:20.426Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 63,
-              "Title": "Logout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "RelativeDocumentMoniker": "ArtGallery\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "RelativeToolTip": "ArtGallery\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-09T14:38:16.227Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 28,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "ArtGallery\\Views\\Shared\\_LoginPartial.cshtml",
@@ -1109,7 +710,547 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ArtGallery\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ArtGallery\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAowFQAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T09:59:21.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "20241212224729_init.cs",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\Migrations\\20241212224729_init.cs",
+              "RelativeDocumentMoniker": "ArtGallery.Infrastructure\\Migrations\\20241212224729_init.cs",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\Migrations\\20241212224729_init.cs",
+              "RelativeToolTip": "ArtGallery.Infrastructure\\Migrations\\20241212224729_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T22:47:30.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ArtistVM.cs",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Models\\Artist\\ArtistVM.cs",
+              "RelativeDocumentMoniker": "ArtGallery\\Models\\Artist\\ArtistVM.cs",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Models\\Artist\\ArtistVM.cs",
+              "RelativeToolTip": "ArtGallery\\Models\\Artist\\ArtistVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T15:26:12.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "ArtGallery\\Views\\Order\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "ArtGallery\\Views\\Order\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAC0AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T19:20:08.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "MyOrders.cshtml",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Order\\MyOrders.cshtml",
+              "RelativeDocumentMoniker": "ArtGallery\\Views\\Order\\MyOrders.cshtml",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Order\\MyOrders.cshtml",
+              "RelativeToolTip": "ArtGallery\\Views\\Order\\MyOrders.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACoAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T19:21:23.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "OrderIndexVM.cs",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Models\\Order\\OrderIndexVM.cs",
+              "RelativeDocumentMoniker": "ArtGallery\\Models\\Order\\OrderIndexVM.cs",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Models\\Order\\OrderIndexVM.cs",
+              "RelativeToolTip": "ArtGallery\\Models\\Order\\OrderIndexVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T19:10:24.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "ArtGallery\\Views\\Product\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "ArtGallery\\Views\\Product\\Create.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T15:55:44.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ShoppingCartService.cs",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Core\\Services\\ShoppingCartService.cs",
+              "RelativeDocumentMoniker": "ArtGallery.Core\\Services\\ShoppingCartService.cs",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Core\\Services\\ShoppingCartService.cs",
+              "RelativeToolTip": "ArtGallery.Core\\Services\\ShoppingCartService.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAawD4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T19:39:32.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Core\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "ArtGallery.Core\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Core\\Services\\OrderService.cs",
+              "RelativeToolTip": "ArtGallery.Core\\Services\\OrderService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAlwBMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T19:08:55.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Success.cshtml",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Checkout\\Success.cshtml",
+              "RelativeDocumentMoniker": "ArtGallery\\Views\\Checkout\\Success.cshtml",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Checkout\\Success.cshtml",
+              "RelativeToolTip": "ArtGallery\\Views\\Checkout\\Success.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T15:52:49.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\Data\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "ArtGallery.Infrastructure\\Data\\Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\Data\\Entities\\Category.cs",
+              "RelativeToolTip": "ArtGallery.Infrastructure\\Data\\Entities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T14:11:15.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\Data\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "ArtGallery.Infrastructure\\Data\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\Data\\Entities\\Product.cs",
+              "RelativeToolTip": "ArtGallery.Infrastructure\\Data\\Entities\\Product.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAIA6wBYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T14:11:48.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\Data\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "ArtGallery.Infrastructure\\Data\\Entities\\Order.cs",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\Data\\Entities\\Order.cs",
+              "RelativeToolTip": "ArtGallery.Infrastructure\\Data\\Entities\\Order.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T14:17:26.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Artist.cs",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\Data\\Entities\\Artist.cs",
+              "RelativeDocumentMoniker": "ArtGallery.Infrastructure\\Data\\Entities\\Artist.cs",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\Data\\Entities\\Artist.cs",
+              "RelativeToolTip": "ArtGallery.Infrastructure\\Data\\Entities\\Artist.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T14:10:54.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\Data\\Entities\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "ArtGallery.Infrastructure\\Data\\Entities\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\Data\\Entities\\ApplicationUser.cs",
+              "RelativeToolTip": "ArtGallery.Infrastructure\\Data\\Entities\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T14:09:05.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ShoppingCartItem.cs",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\Data\\Entities\\ShoppingCartItem.cs",
+              "RelativeDocumentMoniker": "ArtGallery.Infrastructure\\Data\\Entities\\ShoppingCartItem.cs",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\Data\\Entities\\ShoppingCartItem.cs",
+              "RelativeToolTip": "ArtGallery.Infrastructure\\Data\\Entities\\ShoppingCartItem.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAkwBoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T14:19:55.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Artist\\Create.cshtml",
+              "RelativeDocumentMoniker": "ArtGallery\\Views\\Artist\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Artist\\Create.cshtml",
+              "RelativeToolTip": "ArtGallery\\Views\\Artist\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T15:45:22.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "ArtGallery\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "ArtGallery\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T10:05:08.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ProductCreateVM.cs",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Models\\Product\\ProductCreateVM.cs",
+              "RelativeDocumentMoniker": "ArtGallery\\Models\\Product\\ProductCreateVM.cs",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Models\\Product\\ProductCreateVM.cs",
+              "RelativeToolTip": "ArtGallery\\Models\\Product\\ProductCreateVM.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAgwB0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T15:29:08.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Product\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ArtGallery\\Views\\Product\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Product\\Edit.cshtml",
+              "RelativeToolTip": "ArtGallery\\Views\\Product\\Edit.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T15:58:20.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Product\\Details.cshtml",
+              "RelativeDocumentMoniker": "ArtGallery\\Views\\Product\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Product\\Details.cshtml",
+              "RelativeToolTip": "ArtGallery\\Views\\Product\\Details.cshtml",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAUwE8AAACOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T15:57:31.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "IShoppingCartService.cs",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Core\\Abstraction\\IShoppingCartService.cs",
+              "RelativeDocumentMoniker": "ArtGallery.Core\\Abstraction\\IShoppingCartService.cs",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Core\\Abstraction\\IShoppingCartService.cs",
+              "RelativeToolTip": "ArtGallery.Core\\Abstraction\\IShoppingCartService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T19:38:47.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Order\\Create.cshtml",
+              "RelativeDocumentMoniker": "ArtGallery\\Views\\Order\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Order\\Create.cshtml",
+              "RelativeToolTip": "ArtGallery\\Views\\Order\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T19:18:15.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "OrderCreateVM.cs",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Models\\Order\\OrderCreateVM.cs",
+              "RelativeDocumentMoniker": "ArtGallery\\Models\\Order\\OrderCreateVM.cs",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Models\\Order\\OrderCreateVM.cs",
+              "RelativeToolTip": "ArtGallery\\Models\\Order\\OrderCreateVM.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T19:11:46.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Core\\Abstraction\\IOrderService.cs",
+              "RelativeDocumentMoniker": "ArtGallery.Core\\Abstraction\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Core\\Abstraction\\IOrderService.cs",
+              "RelativeToolTip": "ArtGallery.Core\\Abstraction\\IOrderService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T19:08:12.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Artist\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ArtGallery\\Views\\Artist\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Artist\\Delete.cshtml",
+              "RelativeToolTip": "ArtGallery\\Views\\Artist\\Delete.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T15:48:01.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Product\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ArtGallery\\Views\\Product\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Product\\Delete.cshtml",
+              "RelativeToolTip": "ArtGallery\\Views\\Product\\Delete.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T15:56:35.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "ArtistController.cs",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Controllers\\ArtistController.cs",
+              "RelativeDocumentMoniker": "ArtGallery\\Controllers\\ArtistController.cs",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Controllers\\ArtistController.cs",
+              "RelativeToolTip": "ArtGallery\\Controllers\\ArtistController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T15:32:37.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Artist\\Index.cshtml",
+              "RelativeDocumentMoniker": "ArtGallery\\Views\\Artist\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Artist\\Index.cshtml",
+              "RelativeToolTip": "ArtGallery\\Views\\Artist\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T15:50:38.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Artist\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ArtGallery\\Views\\Artist\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Views\\Artist\\Edit.cshtml",
+              "RelativeToolTip": "ArtGallery\\Views\\Artist\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T15:49:46.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "ArtGallery\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "ArtGallery\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAcwJYAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T14:32:32.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "ArtGallery\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "ArtGallery\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T14:37:09.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "ArtGallery\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "ArtGallery\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAUwBkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T14:29:01.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "ArtGallery\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "ArtGallery\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T14:30:47.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "ArtGallery.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\ArtGallery.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "ArtGallery.Infrastructure\\ArtGallery.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Infrastructure\\ArtGallery.Infrastructure.csproj",
+              "RelativeToolTip": "ArtGallery.Infrastructure\\ArtGallery.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-09T14:07:23.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "ProductIndexVM.cs",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Models\\Product\\ProductIndexVM.cs",
+              "RelativeDocumentMoniker": "ArtGallery\\Models\\Product\\ProductIndexVM.cs",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Models\\Product\\ProductIndexVM.cs",
+              "RelativeToolTip": "ArtGallery\\Models\\Product\\ProductIndexVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T15:28:22.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "CategoryVM.cs",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Models\\Category\\CategoryVM.cs",
+              "RelativeDocumentMoniker": "ArtGallery\\Models\\Category\\CategoryVM.cs",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Models\\Category\\CategoryVM.cs",
+              "RelativeToolTip": "ArtGallery\\Models\\Category\\CategoryVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T15:26:35.865Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 65,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Core\\Abstraction\\IProductService.cs",
+              "RelativeDocumentMoniker": "ArtGallery.Core\\Abstraction\\IProductService.cs",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Core\\Abstraction\\IProductService.cs",
+              "RelativeToolTip": "ArtGallery.Core\\Abstraction\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAACCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T15:19:04.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "ArtistService.cs",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Core\\Services\\ArtistService.cs",
+              "RelativeDocumentMoniker": "ArtGallery.Core\\Services\\ArtistService.cs",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Core\\Services\\ArtistService.cs",
+              "RelativeToolTip": "ArtGallery.Core\\Services\\ArtistService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T15:16:57.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "IArtistService.cs",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Core\\Abstraction\\IArtistService.cs",
+              "RelativeDocumentMoniker": "ArtGallery.Core\\Abstraction\\IArtistService.cs",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Core\\Abstraction\\IArtistService.cs",
+              "RelativeToolTip": "ArtGallery.Core\\Abstraction\\IArtistService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T15:16:18.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Core\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "ArtGallery.Core\\Services\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Core\\Services\\CategoryService.cs",
+              "RelativeToolTip": "ArtGallery.Core\\Services\\CategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T15:15:34.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Core\\Abstraction\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "ArtGallery.Core\\Abstraction\\ICategoryService.cs",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Core\\Abstraction\\ICategoryService.cs",
+              "RelativeToolTip": "ArtGallery.Core\\Abstraction\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T15:14:58.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "ArtGallery.Core.csproj",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Core\\ArtGallery.Core.csproj",
+              "RelativeDocumentMoniker": "ArtGallery.Core\\ArtGallery.Core.csproj",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery.Core\\ArtGallery.Core.csproj",
+              "RelativeToolTip": "ArtGallery.Core\\ArtGallery.Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-09T15:12:40.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Logout.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeDocumentMoniker": "ArtGallery\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeToolTip": "ArtGallery\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T14:38:20.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "ArtGallery\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "ArtGallery\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T14:38:16.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "ArtGallery\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
@@ -1121,7 +1262,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 74,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "ArtGallery\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
@@ -1133,7 +1274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 75,
               "Title": "ScaffoldingReadMe.txt",
               "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\ScaffoldingReadMe.txt",
               "RelativeDocumentMoniker": "ArtGallery\\ScaffoldingReadMe.txt",
@@ -1145,7 +1286,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 76,
               "Title": "ArtGallery.csproj",
               "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\ArtGallery.csproj",
               "RelativeDocumentMoniker": "ArtGallery\\ArtGallery.csproj",
@@ -1157,7 +1298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 77,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\appsettings.json",
               "RelativeDocumentMoniker": "ArtGallery\\appsettings.json",
@@ -1169,7 +1310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 78,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\\u0423\u0435\u0431 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\appsettings.Development.json",
               "RelativeDocumentMoniker": "ArtGallery\\appsettings.Development.json",

@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ArtGallery.Infrastructure.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241212204030_try2")]
-    partial class try2
+    [Migration("20241213113410_f10")]
+    partial class f10
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

@@ -23,10 +23,11 @@ namespace ArtGallery.Controllers
         // GET: Checkout
         public IActionResult Index()
         {
+
             string currentUserId = this.User.FindFirstValue(ClaimTypes.NameIdentifier);
 
-            var model = new CheckoutFormVM();
-
+            // var model = new CheckoutFormVM();
+            var model = _checkoutService.PrepareCheckoutForm(currentUserId);
             if (!string.IsNullOrEmpty(currentUserId))
             {
                 var user = _checkoutService.GetUserDetails(currentUserId);
@@ -59,14 +60,14 @@ namespace ArtGallery.Controllers
                model.ZipCode,
                model.PhoneNumber,
                model.PaymentMethod
-           );
+                );
 
                 if (isSaved)
                 {
-                    return RedirectToAction("OrderSuccess", "ShoppingCart");
+                    return RedirectToAction("PlaceOrder", "ShoppingCart");
                 }
-               
-            } 
+
+            }
             return View();
         }
 

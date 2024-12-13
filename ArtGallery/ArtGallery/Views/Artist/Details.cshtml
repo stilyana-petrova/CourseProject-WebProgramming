@@ -33,8 +33,8 @@
 
             </div>
             <br />
-            <a href="#" class="btn btn-dark">All products by this Artist</a>
-            <br /> <br />
+           @*  <a asp-controller="Product" asp-action="Index" class="btn btn-dark">All products by this Artist</a>
+            <br /> <br /> *@
             <div>
                 @if ((this.User.Identity.IsAuthenticated) && (this.User.IsInRole("Admin")))
                 {

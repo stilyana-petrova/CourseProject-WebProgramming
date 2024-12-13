@@ -196,4 +196,8 @@ a {
     color: #432818;
 }
 
-
+/* for banner in categories */
+.i {
+    width: 100%;
+    float: right;
+}

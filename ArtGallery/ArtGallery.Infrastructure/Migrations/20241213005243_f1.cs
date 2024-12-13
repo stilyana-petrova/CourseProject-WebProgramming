@@ -4,7 +4,7 @@
 
 namespace ArtGallery.Infrastructure.Migrations
 {
-    public partial class delete : Migration
+    public partial class f1 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

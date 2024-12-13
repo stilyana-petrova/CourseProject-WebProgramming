@@ -191,31 +191,111 @@ namespace ArtGallery.Controllers
         [AllowAnonymous]
         public ActionResult Paintings()
         {
-            return View();
+            List<ProductIndexVM> products = _productService.GetProducts()
+                 .Select(product => new ProductIndexVM
+                 {
+                     Id = product.Id,
+                     Name = product.Name,
+                     Description = product.Description,
+                     CategoryId = product.CategoryId,
+                     CategoryName = product.Category.Name,
+                     ArtistId = product.ArtistId,
+                     ArtistName = product.Artist.Name,
+                     Picture = product.Picture,
+                     Quantity = product.Quantity,
+                     Price = product.Price,
+                     Discount = product.Discount
+                 }).Where(x=>x.CategoryName=="Paintings")
+                 .ToList();
+            return View(products);
         }
 
         [AllowAnonymous]
         public ActionResult Drawings()
         {
-            return View();
+            List<ProductIndexVM> products = _productService.GetProducts()
+                 .Select(product => new ProductIndexVM
+                 {
+                     Id = product.Id,
+                     Name = product.Name,
+                     Description = product.Description,
+                     CategoryId = product.CategoryId,
+                     CategoryName = product.Category.Name,
+                     ArtistId = product.ArtistId,
+                     ArtistName = product.Artist.Name,
+                     Picture = product.Picture,
+                     Quantity = product.Quantity,
+                     Price = product.Price,
+                     Discount = product.Discount
+                 }).Where(x => x.CategoryName == "Drawings")
+                 .ToList();
+            return View(products);
         }
 
         [AllowAnonymous]
         public ActionResult Decor()
         {
-            return View();
+            List<ProductIndexVM> products = _productService.GetProducts()
+                 .Select(product => new ProductIndexVM
+                 {
+                     Id = product.Id,
+                     Name = product.Name,
+                     Description = product.Description,
+                     CategoryId = product.CategoryId,
+                     CategoryName = product.Category.Name,
+                     ArtistId = product.ArtistId,
+                     ArtistName = product.Artist.Name,
+                     Picture = product.Picture,
+                     Quantity = product.Quantity,
+                     Price = product.Price,
+                     Discount = product.Discount
+                 }).Where(x => x.CategoryName == "Decorations")
+                 .ToList();
+            return View(products);
         }
 
         [AllowAnonymous]
         public ActionResult Calendars()
         {
-            return View();
+            List<ProductIndexVM> products = _productService.GetProducts()
+                 .Select(product => new ProductIndexVM
+                 {
+                     Id = product.Id,
+                     Name = product.Name,
+                     Description = product.Description,
+                     CategoryId = product.CategoryId,
+                     CategoryName = product.Category.Name,
+                     ArtistId = product.ArtistId,
+                     ArtistName = product.Artist.Name,
+                     Picture = product.Picture,
+                     Quantity = product.Quantity,
+                     Price = product.Price,
+                     Discount = product.Discount
+                 }).Where(x => x.CategoryName == "Calendars")
+                 .ToList();
+            return View(products);
         }
 
         [AllowAnonymous]
         public ActionResult AlbumCards()
         {
-            return View();
+            List<ProductIndexVM> products = _productService.GetProducts()
+                 .Select(product => new ProductIndexVM
+                 {
+                     Id = product.Id,
+                     Name = product.Name,
+                     Description = product.Description,
+                     CategoryId = product.CategoryId,
+                     CategoryName = product.Category.Name,
+                     ArtistId = product.ArtistId,
+                     ArtistName = product.Artist.Name,
+                     Picture = product.Picture,
+                     Quantity = product.Quantity,
+                     Price = product.Price,
+                     Discount = product.Discount
+                 }).Where(x => x.CategoryName == "Albums and Cards")
+                 .ToList();
+            return View(products);
         }
     }
 }

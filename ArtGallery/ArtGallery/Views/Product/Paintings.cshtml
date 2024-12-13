@@ -3,7 +3,7 @@
 @{
     ViewData["Title"] = "Index";
 }
-<h1>All Products</h1>
+<img src="~/images/banner-for-paintings.png" class="d-block i rounded" />
 
 @if ((this.User.Identity.IsAuthenticated) && (this.User.IsInRole("Admin")))
 {
@@ -17,15 +17,14 @@
     </p>
 }
 
-<form asp-controller="Product" asp-action="Index" method="get">
+@* <form asp-controller="Product" asp-action="Index" method="get">
     <p>
         <!-- Searches -->
-        
         Artist: <input type="text" name="SearchStringArtistName" />
 
         <input type="submit" value="Filter" />
     </p>
-</form>
+</form> *@
 
 <div class="row">
     @foreach (var item in Model)

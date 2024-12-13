@@ -4,7 +4,7 @@
 
 namespace ArtGallery.Infrastructure.Migrations
 {
-    public partial class checkoutSecondTry4 : Migration
+    public partial class f3 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
