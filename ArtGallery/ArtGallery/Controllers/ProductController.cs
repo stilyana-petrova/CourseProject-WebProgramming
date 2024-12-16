@@ -211,7 +211,7 @@ namespace ArtGallery.Controllers
         }
 
         [AllowAnonymous]
-        public ActionResult Drawings()
+        public ActionResult Keys()
         {
             List<ProductIndexVM> products = _productService.GetProducts()
                  .Select(product => new ProductIndexVM
@@ -227,7 +227,7 @@ namespace ArtGallery.Controllers
                      Quantity = product.Quantity,
                      Price = product.Price,
                      Discount = product.Discount
-                 }).Where(x => x.CategoryName == "Drawings")
+                 }).Where(x => x.CategoryName == "Key house")
                  .ToList();
             return View(products);
         }

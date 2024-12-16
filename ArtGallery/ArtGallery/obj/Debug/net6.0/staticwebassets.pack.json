@@ -1049,6 +1049,22 @@
       "PackagePath": "staticwebassets\\images\\banner-for-paintings.png"
     },
     {
+      "Id": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\Уеб програмиране\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\wwwroot\\images\\bannerCustomers.png",
+      "PackagePath": "staticwebassets\\images\\bannerCustomers.png"
+    },
+    {
+      "Id": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\Уеб програмиране\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\wwwroot\\images\\bannerDecor.png",
+      "PackagePath": "staticwebassets\\images\\bannerDecor.png"
+    },
+    {
+      "Id": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\Уеб програмиране\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\wwwroot\\images\\bannerPaintings.png",
+      "PackagePath": "staticwebassets\\images\\bannerPaintings.png"
+    },
+    {
+      "Id": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\Уеб програмиране\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\wwwroot\\images\\bannerShopping.png",
+      "PackagePath": "staticwebassets\\images\\bannerShopping.png"
+    },
+    {
       "Id": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\Уеб програмиране\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\wwwroot\\images\\brown-welcome-banner.png",
       "PackagePath": "staticwebassets\\images\\brown-welcome-banner.png"
     },

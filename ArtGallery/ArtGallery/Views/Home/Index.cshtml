@@ -3,14 +3,14 @@
 }
 
 <!--Slideshow-->
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3500">
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3500">
     <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"></li>
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
@@ -29,13 +29,14 @@
             <img class="d-block w-100" src="/images/bannerShopping.png" alt="Enjoy Shopping">
         </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
     </a>
 </div>
+
 
 
 <!--Shows popular categories-->
@@ -81,11 +82,11 @@
         <div class="col-md-3 d-flex flex-column align-items-center mb-5" data-aos="zoom-in" data-aos-delay="300">
             <div class="text-center">
                 <div class="image">
-                    <a asp-controller="Product" asp-action="Drawings">
-                        <img src="https://media.timeout.com/images/106006274/750/562/image.jpg" class="img-fluid" />
+                    <a asp-controller="Product" asp-action="Keys">
+                        <img src="~/images/Done/keyhouse/key-2.jpg" class="img-fluid" />
                     </a>
                 </div>
-                <h4><a asp-controller="Product" asp-action="Drawings">Drawings</a></h4>
+                <h4><a asp-controller="Product" asp-action="Keys">Key houses</a></h4>
             </div>
         </div>
     </div>

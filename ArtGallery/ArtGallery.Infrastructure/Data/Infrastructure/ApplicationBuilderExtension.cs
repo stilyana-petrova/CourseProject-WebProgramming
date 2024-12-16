@@ -72,7 +72,7 @@ namespace ArtGallery.Infrastructure.Data.Infrastructure
             dataCategory.Categories.AddRange(new[]
             {
                 new Category {Name="Paintings"},
-                new Category {Name="Drawings"},
+                new Category {Name="Key house"},
                 new Category {Name="Albums and Cards"},
                 new Category {Name="Decorations"},
                 new Category {Name="Calendars"},

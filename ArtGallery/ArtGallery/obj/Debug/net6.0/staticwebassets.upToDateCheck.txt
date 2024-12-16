@@ -1,5 +1,7 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\bannerCustomers.png
+wwwroot\images\bannerDecor.png
 wwwroot\images\banner-for-albums.png
 wwwroot\images\banner-for-calendars.png
 wwwroot\images\banner-for-cards.png
@@ -7,6 +9,8 @@ wwwroot\images\banner-for-decorations.png
 wwwroot\images\banner-for-keyhouse.png
 wwwroot\images\banner-for-moss.png
 wwwroot\images\banner-for-paintings.png
+wwwroot\images\bannerPaintings.png
+wwwroot\images\bannerShopping.png
 wwwroot\images\brown-welcome-banner.png
 wwwroot\images\Done\albums\album-1.jpg
 wwwroot\images\Done\albums\album-10.jpg

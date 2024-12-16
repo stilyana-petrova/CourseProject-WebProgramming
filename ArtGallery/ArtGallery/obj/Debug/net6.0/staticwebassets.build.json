@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Qu6EfGDtzrAM8LGnQhpy36kwOeFnQN9qXNphVp1vC9g=",
+  "Hash": "Rhc/KPaOXJ+FxhlhfO9x1+eumsGzicd0W0bUaMPUiGs=",
   "Source": "ArtGallery",
   "BasePath": "_content/ArtGallery",
   "Mode": "Default",
@@ -1361,6 +1361,48 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\Уеб програмиране\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\wwwroot\\images\\bannerCustomers.png",
+      "SourceId": "ArtGallery",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\Уеб програмиране\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\wwwroot\\",
+      "BasePath": "_content/ArtGallery",
+      "RelativePath": "images/bannerCustomers#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ccxc01d07l",
+      "Integrity": "NFh9v/5ESyC4ppKX/nzK9UpSM5AGK/CZzthX6NVh3Ik=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\bannerCustomers.png"
+    },
+    {
+      "Identity": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\Уеб програмиране\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\wwwroot\\images\\bannerDecor.png",
+      "SourceId": "ArtGallery",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\Уеб програмиране\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\wwwroot\\",
+      "BasePath": "_content/ArtGallery",
+      "RelativePath": "images/bannerDecor#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "twk9en3xxi",
+      "Integrity": "HcxO9bPzikcbfwVE5xIX+oD05PtSQD7Cb1lhK8C3aUw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\bannerDecor.png"
+    },
+    {
       "Identity": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\Уеб програмиране\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\wwwroot\\images\\banner-for-albums.png",
       "SourceId": "ArtGallery",
       "SourceType": "Discovered",
@@ -1501,11 +1543,53 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "y6czmid3sd",
-      "Integrity": "hulEClv4jaH/9/mSY6PdvTEbWprbU8FTd9Md2dMclP8=",
+      "Fingerprint": "n3m10dif77",
+      "Integrity": "3aV8E20o/e+P67H5A7HeBJL9kfA6HP2BTomr+cp2kTo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\banner-for-paintings.png"
+    },
+    {
+      "Identity": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\Уеб програмиране\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\wwwroot\\images\\bannerPaintings.png",
+      "SourceId": "ArtGallery",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\Уеб програмиране\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\wwwroot\\",
+      "BasePath": "_content/ArtGallery",
+      "RelativePath": "images/bannerPaintings#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "udrztqmeyg",
+      "Integrity": "nsUlMs7gJyewxLMmxO5sWOnOhgntNySUPBiLSBmEtRU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\bannerPaintings.png"
+    },
+    {
+      "Identity": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\Уеб програмиране\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\wwwroot\\images\\bannerShopping.png",
+      "SourceId": "ArtGallery",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\Уеб програмиране\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\wwwroot\\",
+      "BasePath": "_content/ArtGallery",
+      "RelativePath": "images/bannerShopping#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "02e56c6uhm",
+      "Integrity": "aCyMKmJlBjIwacvCQpeAgcZioaShq3lf+qQyP5G1RMk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\bannerShopping.png"
     },
     {
       "Identity": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\Уеб програмиране\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\wwwroot\\images\\brown-welcome-banner.png",
@@ -1522,8 +1606,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "mg3801pcbk",
-      "Integrity": "eghxhYtfJ/3fkpP0U9WorfwhusWALiIpC9dWG7SCSA4=",
+      "Fingerprint": "36je3jugdn",
+      "Integrity": "i0cywjEu8BNrDnDDFeQ5aIWYeUzHcUQokIZ2HnfnHiY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\brown-welcome-banner.png"
@@ -10589,6 +10673,170 @@
       ]
     },
     {
+      "Route": "images/bannerCustomers.ccxc01d07l.png",
+      "AssetFile": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\Уеб програмиране\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\wwwroot\\images\\bannerCustomers.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "154446"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NFh9v/5ESyC4ppKX/nzK9UpSM5AGK/CZzthX6NVh3Ik=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 11:28:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ccxc01d07l"
+        },
+        {
+          "Name": "label",
+          "Value": "images/bannerCustomers.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NFh9v/5ESyC4ppKX/nzK9UpSM5AGK/CZzthX6NVh3Ik="
+        }
+      ]
+    },
+    {
+      "Route": "images/bannerCustomers.png",
+      "AssetFile": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\Уеб програмиране\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\wwwroot\\images\\bannerCustomers.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "154446"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NFh9v/5ESyC4ppKX/nzK9UpSM5AGK/CZzthX6NVh3Ik=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 11:28:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NFh9v/5ESyC4ppKX/nzK9UpSM5AGK/CZzthX6NVh3Ik="
+        }
+      ]
+    },
+    {
+      "Route": "images/bannerDecor.png",
+      "AssetFile": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\Уеб програмиране\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\wwwroot\\images\\bannerDecor.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "88238"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HcxO9bPzikcbfwVE5xIX+oD05PtSQD7Cb1lhK8C3aUw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 11:28:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HcxO9bPzikcbfwVE5xIX+oD05PtSQD7Cb1lhK8C3aUw="
+        }
+      ]
+    },
+    {
+      "Route": "images/bannerDecor.twk9en3xxi.png",
+      "AssetFile": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\Уеб програмиране\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\wwwroot\\images\\bannerDecor.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "88238"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HcxO9bPzikcbfwVE5xIX+oD05PtSQD7Cb1lhK8C3aUw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 11:28:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "twk9en3xxi"
+        },
+        {
+          "Name": "label",
+          "Value": "images/bannerDecor.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HcxO9bPzikcbfwVE5xIX+oD05PtSQD7Cb1lhK8C3aUw="
+        }
+      ]
+    },
+    {
       "Route": "images/banner-for-albums.kb8hbfitpn.png",
       "AssetFile": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\Уеб програмиране\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\wwwroot\\images\\banner-for-albums.png",
       "Selectors": [],
@@ -11081,6 +11329,51 @@
       ]
     },
     {
+      "Route": "images/banner-for-paintings.n3m10dif77.png",
+      "AssetFile": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\Уеб програмиране\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\wwwroot\\images\\banner-for-paintings.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "734785"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3aV8E20o/e+P67H5A7HeBJL9kfA6HP2BTomr+cp2kTo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 11:11:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n3m10dif77"
+        },
+        {
+          "Name": "label",
+          "Value": "images/banner-for-paintings.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3aV8E20o/e+P67H5A7HeBJL9kfA6HP2BTomr+cp2kTo="
+        }
+      ]
+    },
+    {
       "Route": "images/banner-for-paintings.png",
       "AssetFile": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\Уеб програмиране\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\wwwroot\\images\\banner-for-paintings.png",
       "Selectors": [],
@@ -11091,7 +11384,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "761576"
+          "Value": "734785"
         },
         {
           "Name": "Content-Type",
@@ -11099,11 +11392,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hulEClv4jaH/9/mSY6PdvTEbWprbU8FTd9Md2dMclP8=\""
+          "Value": "\"3aV8E20o/e+P67H5A7HeBJL9kfA6HP2BTomr+cp2kTo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 22:43:40 GMT"
+          "Value": "Mon, 16 Dec 2024 11:11:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11113,13 +11406,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hulEClv4jaH/9/mSY6PdvTEbWprbU8FTd9Md2dMclP8="
+          "Value": "sha256-3aV8E20o/e+P67H5A7HeBJL9kfA6HP2BTomr+cp2kTo="
         }
       ]
     },
     {
-      "Route": "images/banner-for-paintings.y6czmid3sd.png",
-      "AssetFile": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\Уеб програмиране\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\wwwroot\\images\\banner-for-paintings.png",
+      "Route": "images/bannerPaintings.png",
+      "AssetFile": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\Уеб програмиране\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\wwwroot\\images\\bannerPaintings.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11128,7 +11421,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "761576"
+          "Value": "87639"
         },
         {
           "Name": "Content-Type",
@@ -11136,11 +11429,48 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hulEClv4jaH/9/mSY6PdvTEbWprbU8FTd9Md2dMclP8=\""
+          "Value": "\"nsUlMs7gJyewxLMmxO5sWOnOhgntNySUPBiLSBmEtRU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 22:43:40 GMT"
+          "Value": "Mon, 16 Dec 2024 11:28:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nsUlMs7gJyewxLMmxO5sWOnOhgntNySUPBiLSBmEtRU="
+        }
+      ]
+    },
+    {
+      "Route": "images/bannerPaintings.udrztqmeyg.png",
+      "AssetFile": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\Уеб програмиране\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\wwwroot\\images\\bannerPaintings.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87639"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nsUlMs7gJyewxLMmxO5sWOnOhgntNySUPBiLSBmEtRU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 11:28:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11150,20 +11480,102 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "y6czmid3sd"
+          "Value": "udrztqmeyg"
         },
         {
           "Name": "label",
-          "Value": "images/banner-for-paintings.png"
+          "Value": "images/bannerPaintings.png"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-hulEClv4jaH/9/mSY6PdvTEbWprbU8FTd9Md2dMclP8="
+          "Value": "sha256-nsUlMs7gJyewxLMmxO5sWOnOhgntNySUPBiLSBmEtRU="
         }
       ]
     },
     {
-      "Route": "images/brown-welcome-banner.mg3801pcbk.png",
+      "Route": "images/bannerShopping.02e56c6uhm.png",
+      "AssetFile": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\Уеб програмиране\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\wwwroot\\images\\bannerShopping.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "111766"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aCyMKmJlBjIwacvCQpeAgcZioaShq3lf+qQyP5G1RMk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 11:28:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "02e56c6uhm"
+        },
+        {
+          "Name": "label",
+          "Value": "images/bannerShopping.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aCyMKmJlBjIwacvCQpeAgcZioaShq3lf+qQyP5G1RMk="
+        }
+      ]
+    },
+    {
+      "Route": "images/bannerShopping.png",
+      "AssetFile": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\Уеб програмиране\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\wwwroot\\images\\bannerShopping.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "111766"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aCyMKmJlBjIwacvCQpeAgcZioaShq3lf+qQyP5G1RMk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 11:28:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aCyMKmJlBjIwacvCQpeAgcZioaShq3lf+qQyP5G1RMk="
+        }
+      ]
+    },
+    {
+      "Route": "images/brown-welcome-banner.36je3jugdn.png",
       "AssetFile": "C:\\Users\\Stilly\\Documents\\Stelly\\Uni\\Уеб програмиране\\Web programming 2\\CourseProject-WebProgramming\\ArtGallery\\ArtGallery\\wwwroot\\images\\brown-welcome-banner.png",
       "Selectors": [],
       "ResponseHeaders": [
@@ -11173,7 +11585,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "181468"
+          "Value": "162164"
         },
         {
           "Name": "Content-Type",
@@ -11181,11 +11593,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"eghxhYtfJ/3fkpP0U9WorfwhusWALiIpC9dWG7SCSA4=\""
+          "Value": "\"i0cywjEu8BNrDnDDFeQ5aIWYeUzHcUQokIZ2HnfnHiY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 22:43:40 GMT"
+          "Value": "Mon, 16 Dec 2024 11:01:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11195,7 +11607,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "mg3801pcbk"
+          "Value": "36je3jugdn"
         },
         {
           "Name": "label",
@@ -11203,7 +11615,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-eghxhYtfJ/3fkpP0U9WorfwhusWALiIpC9dWG7SCSA4="
+          "Value": "sha256-i0cywjEu8BNrDnDDFeQ5aIWYeUzHcUQokIZ2HnfnHiY="
         }
       ]
     },
@@ -11218,7 +11630,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "181468"
+          "Value": "162164"
         },
         {
           "Name": "Content-Type",
@@ -11226,11 +11638,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"eghxhYtfJ/3fkpP0U9WorfwhusWALiIpC9dWG7SCSA4=\""
+          "Value": "\"i0cywjEu8BNrDnDDFeQ5aIWYeUzHcUQokIZ2HnfnHiY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 22:43:40 GMT"
+          "Value": "Mon, 16 Dec 2024 11:01:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11240,7 +11652,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-eghxhYtfJ/3fkpP0U9WorfwhusWALiIpC9dWG7SCSA4="
+          "Value": "sha256-i0cywjEu8BNrDnDDFeQ5aIWYeUzHcUQokIZ2HnfnHiY="
         }
       ]
     },
